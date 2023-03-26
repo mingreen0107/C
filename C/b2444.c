@@ -13,14 +13,23 @@ int main() {
 		{
 			printf(" ");
 		}
-		for (j = 0; j < k * 2 - 1; k++)
+		for (j = 1; j <= k * 2 - 1; j++)
 		{
 			printf("*");
 		}
+		printf("\n");
 	}
-
-
-
-
+	for (k = N - 1; k > 0; k--)
+	{
+		for (i = 1; i <= N-k; i++)
+		{
+			printf(" ");
+		}
+		for (j = k * 2 - 1; j > 0; j--)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
 	return 0;
 }

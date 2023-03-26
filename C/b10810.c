@@ -22,7 +22,5 @@ int main() {
 	{
 		printf("%d ", basket[i]);
 	}
-
-
 	return 0;
 }
