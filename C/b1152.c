@@ -1,18 +1,24 @@
-#define _CRT_SECURE_NO_WARNINGS
-#include<stdio.h>
+#include <stdio.h>
+#include <string.h>
+
 
 int main() {
 
-	char srr[1000000] = "";
-	int count = 0;
-	int i;
+    char arr[1000000];
+    int i, count = 0, len;
 
-	scanf("%s", srr);
+    scanf_s("%[^\n]", arr);
 
-	for (i = 0; i < 1000000; i++)
-	{
-		srr[i] == '32';
-		count++;
-	}
-	return 0;
+    len = strlen(arr);
+
+    for (i = 0; i < len; i++)
+    {
+        if (arr[i] == ' ')
+        {
+            count++;
+        }
+    }
+    printf("%d", count + 1);
+
+    return 0;
 }
