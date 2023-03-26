@@ -1,17 +1,32 @@
 #include <stdio.h>
 #include <string.h>
 
-
 int main() {
 
-    char arr[1000000];
-    int i, count = 0, len;
+    char static arr[1000000];
+    int count = 0, len;
+    int i = 0;
 
-    scanf_s("%[^\n]", arr);
+    scanf("%[^\n]", arr);
 
     len = strlen(arr);
 
-    for (i = 0; i < len; i++)
+    if (len == 1)
+    {
+        if (arr[i] == ' ')
+        {
+            printf("0");
+
+            return 0;
+        }
+        else
+        {
+            printf("1");
+
+            return 0;
+        }
+    }
+    for (i = 1; i < len-1; i++)
     {
         if (arr[i] == ' ')
         {
