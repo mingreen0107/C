@@ -51,5 +51,8 @@
     <ClCompile Include="b2444.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="b10812.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
