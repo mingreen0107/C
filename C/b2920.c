@@ -19,8 +19,12 @@ int main() {
 		else
 			check += 100;
 	}
-	if (check == 8) printf("ascending");
-	else if (check == -8) printf("descending");
-	else printf("mixed");
+	if (check == 8)
+		printf("ascending");
+	else if (check == -8)
+		printf("descending");
+	else
+		printf("mixed");
+
 	return 0;
 }
