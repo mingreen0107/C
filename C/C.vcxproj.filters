@@ -72,5 +72,11 @@
     <ClCompile Include="b2577.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="b1181.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b1259.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
