@@ -93,7 +93,10 @@
     <ClCompile Include="b10814-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="b2839.c">
+    <ClCompile Include="b2839-1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="b2839-2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
