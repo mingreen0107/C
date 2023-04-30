@@ -20,6 +20,8 @@ int main() {
 
 	scanf("%d", &N);
 
+	check3_bag(N);
+
 
 	return 0;
 }
