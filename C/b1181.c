@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define MAX_SIZE 20000
 
 int compare(const void* arr1, const void* arr2)
 {
