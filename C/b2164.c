@@ -1,17 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*
-123456
-23456
-34562
-4562
-5624
-624
-246
-46
-64
-4
-*/
+
 void alone(int* arr, int N) {
 	int i, front;
 
