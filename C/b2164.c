@@ -22,7 +22,6 @@ void alone(int* arr, int N) {
 	}
 	printf("%d", arr[0]);
 }
-
 int main() {
 
 	int N;
